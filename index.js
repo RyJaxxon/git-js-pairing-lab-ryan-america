@@ -44,3 +44,8 @@ const untilNum = (num) => {
 console.log(untilNum(5))
 
 //Function 5:
+const multiply = (a, b) => a * b
+
+console.log(multiply(2, 4))
+
+//Function 6:
