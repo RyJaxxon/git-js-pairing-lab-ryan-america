@@ -60,3 +60,16 @@ const add = (a, b) => {
 console.log(add(2, 4))
 
 // Function 7:
+const isNegative = (num) => {
+    if (num > 0) {
+        return false
+    } else if (num < 0) {
+        return true
+    } else {
+        return false
+    }
+}
+
+console.log((isNegative(2)))
+
+// Function 8:
