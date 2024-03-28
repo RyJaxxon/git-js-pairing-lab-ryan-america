@@ -34,3 +34,13 @@ const multiplesOfThreeOrFive = () => {
 console.log(multiplesOfThreeOrFive());
 
 //Function 4:
+const untilNum = (num) => {
+    let result = []
+    for (let i = 1; i <= num; i++) {
+        result.push(i)
+    }
+    return result
+}
+console.log(untilNum(5))
+
+//Function 5:
