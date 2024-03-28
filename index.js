@@ -78,3 +78,13 @@ const triangleArea = (num1, num2) => 1 / 2 * num1 * num2
 console.log(triangleArea(5, 7))
 
 //Function 9:
+const betweenTwentyAndFourty = (num) => {
+    if (num >= 20 && num <= 40) {
+        return true
+    } else {
+        return false
+    }
+}
+console.log(betweenTwentyAndFourty(30));
+
+//Function 10:
