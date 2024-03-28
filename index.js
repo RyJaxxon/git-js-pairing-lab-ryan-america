@@ -22,3 +22,15 @@ const multiplesOfThree = () => {
 console.log(multiplesOfThree());
 
 //Function 3: 
+const multiplesOfThreeOrFive = () => {
+    let result = [];
+    for (let i = 1; i < 101; i++) {
+        if (i % 3 === 0 || i % 5 === 0)
+            result.push(i);
+    }
+    return result
+}
+
+console.log(multiplesOfThreeOrFive());
+
+//Function 4:
